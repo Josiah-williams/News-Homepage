@@ -1,0 +1,123 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 75%;
+    margin-left: 172px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(134, 132, 132);
+    
+}
+nav a:hover{
+    color: rgb(241, 101, 101);
+}
+nav{
+    margin-top:18px
+}
+.main-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.main-navigation nav a{
+    padding: 12px;
+}
+.color-img{
+    width: 65%;
+    height: 330px;
+}
+.side-image{
+    border: 1px solid rgb(5, 5, 31);;
+    background-color: rgb(5, 5, 31);
+    color: white;
+    height: 500px;
+    padding: 13px;
+    width: 29%;
+}
+.side-image h1{
+    color:rgb(238, 188, 113)
+}
+.side-image h2{
+    font-size: 19px;
+    cursor: pointer;
+}
+.side-image h2:hover{
+    color: rgb(238, 188, 113);
+}
+.side-image p{
+    font-size: 15px;
+    color:  rgb(134, 132, 132);
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.Bright{
+    display: flex;
+    margin-top: -164px;
+    justify-content: space-between;
+    width: 65%;
+}
+.Bright h1{
+    /* font-weight: 100em; */
+    font-size: 50px;
+    color: rgb(5, 5, 31);
+    margin-top: 5px;
+}
+.Brightp{
+    color: rgb(134, 132, 132);
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+button{
+     padding: 15px;
+     width: 50%; 
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     margin-top: 10px;
+     background-color:rgb(5, 5, 31);
+     color: white;
+     border-color:rgba(5, 5, 31, 0.568);
+     cursor: pointer;
+}
+button:hover{
+    background-color: rgb(241, 101, 101);
+    border-color:rgb(241, 101, 101);
+}
+.img1{
+    width: 11%;
+    height: 116px;
+}
+hr{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.num1 p{
+    font-size: 13px;
+    margin-top: -11px;
+    /* word-spacing: 20px; */
+    color:  rgb(134, 132, 132);
+}
+.num1 h4{
+    margin-top: -20px;
+    color:rgba(5, 5, 31,) ;
+    cursor: pointer;
+}
+.num1 h4:hover{
+    color:rgb(241, 101, 101) ;
+}
+.num1 h3{
+    font-size: 30px;
+    color:  rgb(134, 132, 132);
+}
+.num1{
+    /* padding: 10px; */
+    margin-top: -33px;
+    margin-left: -20px;
+    
+}
