@@ -13,6 +13,9 @@
         <div class="logo-container">
             <img class="logo" src="Images/logo.svg">
             </div>
+            <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+<img class="" src="Images/icon-menu-close.svg"></a>
             <nav>
                 <a href="">Home</a>
                 <a href="">New</a>
@@ -22,6 +25,7 @@
                 </nav>
         </div>
     </header>
+    <div id="main" onclick="openNav()"><img class="" src="./Images/icon-menu.svg"></div>
     <div class="container2">
         <img class="color-img" src="Images/image-web-3-desktop.jpg">
         <div class="side-image">
@@ -64,5 +68,14 @@
     </div>
     </div>
 
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+}
+</script>
 </body>
 </html>

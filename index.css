@@ -3,6 +3,11 @@ body{
     width: 75%;
     margin-left: 172px;
 }
+@media(max-width:500px){
+    body{
+        width: 100%;
+    }
+}
 nav a{
     text-decoration: none;
     color: rgb(134, 132, 132);
@@ -25,6 +30,14 @@ nav{
     width: 65%;
     height: 330px;
 }
+@media(max-width:500px){
+    .color-img{
+    width: 162%;
+    height: 615px;
+    margin-left: -149px;
+    margin-top: -75px;
+    }
+}
 .side-image{
     border: 1px solid rgb(5, 5, 31);;
     background-color: rgb(5, 5, 31);
@@ -33,12 +46,25 @@ nav{
     padding: 13px;
     width: 29%;
 }
+@media(max-width:500px){
+    .side-image{
+    position: relative;
+    top: 431px;
+    left: -143px;
+    width: 108%;
+    }
+}
 .side-image h1{
     color:rgb(238, 188, 113)
 }
 .side-image h2{
     font-size: 19px;
     cursor: pointer;
+}
+@media(max-width:500px){
+    .side-image h2{
+        font-size:23px;
+    }
 }
 .side-image h2:hover{
     color: rgb(238, 188, 113);
@@ -47,12 +73,21 @@ nav{
     font-size: 15px;
     color:  rgb(134, 132, 132);
 }
-
+@media(max-width:500px){
+    .side-image p{
+        font-size: 18px;
+    }
+}
 .container2{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-
+}
+@media(max-width:500px){
+    .container2{
+        display: block;
+        width: 100%;
+    }
 }
 .Bright{
     display: flex;
@@ -60,11 +95,26 @@ nav{
     justify-content: space-between;
     width: 65%;
 }
+@media(max-width:500px){
+    .Bright{
+        display: block;
+        width: 109%;
+        margin-left: -143px;
+    }
+}
 .Bright h1{
     /* font-weight: 100em; */
     font-size: 50px;
     color: rgb(5, 5, 31);
     margin-top: 5px;
+}
+@media(max-width:500px){
+    .Bright h1{
+        margin-top: -505px;
+    }
+    br{
+        display: none;
+    }
 }
 .Brightp{
     color: rgb(134, 132, 132);
@@ -73,6 +123,11 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 99%;
+}
+@media(max-width:500px){
+    .last-section{
+        display: block;
+    }
 }
 button{
      padding: 15px;
@@ -119,5 +174,55 @@ hr{
     /* padding: 10px; */
     margin-top: -33px;
     margin-left: -20px;
-    
 }
+@media(max-width:500px){
+    .logo-container{
+    margin-left: -150px;
+    margin-top: 23px;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 203px;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 166px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 31px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 29px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  position: relative;
+  top: -58px;
+  left: 396px;
+}
+#main img{
+    width: 25%;
+}
+    }
