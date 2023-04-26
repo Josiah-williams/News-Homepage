@@ -2,9 +2,15 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 75%;
     /* margin-left: 172px; */
-    margin: 0 auto
+    margin: 0 auto;
+    overflow-x: hidden;
 }
-
+/* @media(max-width:500px){
+    body{
+         overflow: hidden;
+    overflow-y: visible;
+    }
+} */
 nav a{
     text-decoration: none;
     color: rgb(134, 132, 132);
@@ -185,7 +191,7 @@ hr{
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 300px;
+  right: 0;
   background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
