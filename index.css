@@ -1,13 +1,10 @@
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 75%;
-    margin-left: 172px;
+    /* margin-left: 172px; */
+    margin: 0 auto
 }
-@media(max-width:500px){
-    body{
-        width: 100%;
-    }
-}
+
 nav a{
     text-decoration: none;
     color: rgb(134, 132, 132);
@@ -32,9 +29,9 @@ nav{
 }
 @media(max-width:500px){
     .color-img{
-    width: 162%;
-    height: 615px;
-    margin-left: -149px;
+    width: 115%;
+    height: 406px;
+    margin-left: -24px;
     margin-top: -75px;
     }
 }
@@ -50,8 +47,8 @@ nav{
     .side-image{
     position: relative;
     top: 431px;
-    left: -143px;
-    width: 108%;
+    left: -40px;
+    width: 116%;
     }
 }
 .side-image h1{
@@ -63,7 +60,7 @@ nav{
 }
 @media(max-width:500px){
     .side-image h2{
-        font-size:23px;
+        font-size:20px;
     }
 }
 .side-image h2:hover{
@@ -98,8 +95,8 @@ nav{
 @media(max-width:500px){
     .Bright{
         display: block;
-        width: 109%;
-        margin-left: -143px;
+        width: 123%;
+        margin-left: -30px;
     }
 }
 .Bright h1{
@@ -111,6 +108,7 @@ nav{
 @media(max-width:500px){
     .Bright h1{
         margin-top: -505px;
+        font-size: 40px;
     }
     br{
         display: none;
@@ -127,6 +125,7 @@ nav{
 @media(max-width:500px){
     .last-section{
         display: block;
+        margin-top: 650px;
     }
 }
 button{
@@ -177,7 +176,7 @@ hr{
 }
 @media(max-width:500px){
     .logo-container{
-    margin-left: -150px;
+    margin-left: -32px;
     margin-top: 23px;
 }
 .sidebar {
@@ -186,7 +185,7 @@ hr{
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 203px;
+  right: 300px;
   background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
@@ -219,10 +218,10 @@ hr{
   transition: margin-left .5s;
   padding: 16px;
   position: relative;
-  top: -58px;
-  left: 396px;
+  top: -49px;
+  left: 255px;
 }
 #main img{
-    width: 25%;
+    width: 20%;
 }
     }
