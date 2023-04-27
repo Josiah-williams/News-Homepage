@@ -52,7 +52,7 @@ nav{
 @media(max-width:500px){
     .side-image{
     position: relative;
-    top: 458px;
+    top: 427px;
     left: -40px;
     width: 117%;
     height: 540px;
@@ -258,7 +258,7 @@ hr{
   padding: 16px;
   position: relative;
   top: -49px;
-  left: 276px;
+  left: 280px;
 }
 #main img{
     width: 20%;
