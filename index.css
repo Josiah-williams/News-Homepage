@@ -35,9 +35,9 @@ nav{
 }
 @media(max-width:500px){
     .color-img{
-    width: 115%;
+    width: 123%;
     height: 406px;
-    margin-left: -24px;
+    margin-left: -43px;
     margin-top: -75px;
     }
 }
@@ -52,9 +52,10 @@ nav{
 @media(max-width:500px){
     .side-image{
     position: relative;
-    top: 431px;
+    top: 458px;
     left: -40px;
-    width: 116%;
+    width: 114%;
+    height: 588px;
     }
 }
 .side-image h1{
@@ -66,7 +67,7 @@ nav{
 }
 @media(max-width:500px){
     .side-image h2{
-        font-size:20px;
+        font-size:29px;
     }
 }
 .side-image h2:hover{
@@ -78,7 +79,7 @@ nav{
 }
 @media(max-width:500px){
     .side-image p{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 .container2{
@@ -101,8 +102,8 @@ nav{
 @media(max-width:500px){
     .Bright{
         display: block;
-        width: 123%;
-        margin-left: -30px;
+        width: 101%;
+        margin-left: -39px;
     }
 }
 .Bright h1{
@@ -113,8 +114,8 @@ nav{
 }
 @media(max-width:500px){
     .Bright h1{
-        margin-top: -505px;
-        font-size: 40px;
+        margin-top: -585px;
+        font-size: 53px;
     }
     br{
         display: none;
@@ -122,6 +123,13 @@ nav{
 }
 .Brightp{
     color: rgb(134, 132, 132);
+}
+@media(max-width:500px){
+    .Brightp{
+    width: 119%;
+    font-size: 20px;
+    margin-top: -24px;
+    }
 }
 .last-section{
     display: flex;
@@ -131,7 +139,7 @@ nav{
 @media(max-width:500px){
     .last-section{
         display: block;
-        margin-top: 650px;
+        margin-top: 741px;
     }
 }
 button{
@@ -152,6 +160,13 @@ button:hover{
 .img1{
     width: 11%;
     height: 116px;
+}
+@media(max-width:500px){
+.img1{
+    width: 37%;
+    height: 203px;
+    margin-left: -38px;
+    }
 }
 hr{
     margin-bottom: 30px;
@@ -175,14 +190,33 @@ hr{
     font-size: 30px;
     color:  rgb(134, 132, 132);
 }
+@media(max-width:500px){
+    .num1 h3{
+        font-size: 50px;
+    }
+    .num1 h4{
+        font-size: 24px;
+    }
+    .num1 p{
+        font-size: 20px;
+    }
+}
 .num1{
     /* padding: 10px; */
     margin-top: -33px;
     margin-left: -20px;
 }
 @media(max-width:500px){
+    .num1{
+    margin-top: -269px;
+    margin-bottom: 95px;
+    margin-left: 121px;
+    width: 75%;
+    }
+}
+@media(max-width:500px){
     .logo-container{
-    margin-left: -32px;
+    margin-left: -43px;
     margin-top: 23px;
 }
 .sidebar {
@@ -225,7 +259,7 @@ hr{
   padding: 16px;
   position: relative;
   top: -49px;
-  left: 255px;
+  left: 317px;
 }
 #main img{
     width: 20%;
