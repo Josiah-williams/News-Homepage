@@ -35,7 +35,7 @@ nav{
 }
 @media(max-width:500px){
     .color-img{
-    width: 123%;
+    width: 126%;
     height: 406px;
     margin-left: -43px;
     margin-top: -75px;
@@ -54,8 +54,8 @@ nav{
     position: relative;
     top: 458px;
     left: -40px;
-    width: 114%;
-    height: 588px;
+    width: 117%;
+    height: 540px;
     }
 }
 .side-image h1{
@@ -67,7 +67,7 @@ nav{
 }
 @media(max-width:500px){
     .side-image h2{
-        font-size:29px;
+        font-size:26px;
     }
 }
 .side-image h2:hover{
@@ -79,7 +79,7 @@ nav{
 }
 @media(max-width:500px){
     .side-image p{
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 .container2{
@@ -102,7 +102,7 @@ nav{
 @media(max-width:500px){
     .Bright{
         display: block;
-        width: 101%;
+        width: 125%;
         margin-left: -39px;
     }
 }
@@ -114,7 +114,7 @@ nav{
 }
 @media(max-width:500px){
     .Bright h1{
-        margin-top: -585px;
+        margin-top: -541px;
         font-size: 53px;
     }
     br{
@@ -126,8 +126,7 @@ nav{
 }
 @media(max-width:500px){
     .Brightp{
-    width: 119%;
-    font-size: 20px;
+    font-size: 19px;
     margin-top: -24px;
     }
 }
@@ -259,7 +258,7 @@ hr{
   padding: 16px;
   position: relative;
   top: -49px;
-  left: 317px;
+  left: 276px;
 }
 #main img{
     width: 20%;
