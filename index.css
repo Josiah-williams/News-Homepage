@@ -1,16 +1,10 @@
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 75%;
-    /* margin-left: 172px; */
     margin: 0 auto;
     overflow-x: hidden;
 }
-/* @media(max-width:500px){
-    body{
-         overflow: hidden;
-    overflow-y: visible;
-    }
-} */
+
 nav a{
     text-decoration: none;
     color: rgb(134, 132, 132);
@@ -107,7 +101,6 @@ nav{
     }
 }
 .Bright h1{
-    /* font-weight: 100em; */
     font-size: 50px;
     color: rgb(5, 5, 31);
     margin-top: 5px;
@@ -201,7 +194,6 @@ hr{
     }
 }
 .num1{
-    /* padding: 10px; */
     margin-top: -33px;
     margin-left: -20px;
 }
@@ -212,6 +204,9 @@ hr{
     margin-left: 121px;
     width: 75%;
     }
+}
+.logo-container{
+    margin-top: 10px;
 }
 @media(max-width:500px){
     .logo-container{
@@ -245,14 +240,6 @@ hr{
   font-size: 36px;
   margin-left: 50px;
 }
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
 #main {
   transition: margin-left .5s;
   padding: 16px;
@@ -264,3 +251,15 @@ hr{
     width: 20%;
 }
     }
+.closebtn{
+    display:none
+}
+.openbtn{
+    display: none;
+}
+@media(max-width:500px){
+    .openbtn{
+        display: block;
+    
+    }
+}
